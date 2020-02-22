@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Eric Arnez\\source\\repos\\BookListRazor\\BookListRazor\\BookListRazor.csproj": {}
+    "C:\\Users\\Eric Arnez\\source\\repos\\BookListRazorBranch\\BookList\\BookListRazor\\BookListRazor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Eric Arnez\\source\\repos\\BookListRazor\\BookListRazor\\BookListRazor.csproj": {
+    "C:\\Users\\Eric Arnez\\source\\repos\\BookListRazorBranch\\BookList\\BookListRazor\\BookListRazor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Eric Arnez\\source\\repos\\BookListRazor\\BookListRazor\\BookListRazor.csproj",
+        "projectUniqueName": "C:\\Users\\Eric Arnez\\source\\repos\\BookListRazorBranch\\BookList\\BookListRazor\\BookListRazor.csproj",
         "projectName": "BookListRazor",
-        "projectPath": "C:\\Users\\Eric Arnez\\source\\repos\\BookListRazor\\BookListRazor\\BookListRazor.csproj",
+        "projectPath": "C:\\Users\\Eric Arnez\\source\\repos\\BookListRazorBranch\\BookList\\BookListRazor\\BookListRazor.csproj",
         "packagesPath": "C:\\Users\\Eric Arnez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Eric Arnez\\source\\repos\\BookListRazor\\BookListRazor\\obj\\",
+        "outputPath": "C:\\Users\\Eric Arnez\\source\\repos\\BookListRazorBranch\\BookList\\BookListRazor\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,9 +41,27 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
-            "Newtonsoft.Json": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
               "target": "Package",
-              "version": "[12.0.3, )"
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.1, )"
             }
           },
           "imports": [
